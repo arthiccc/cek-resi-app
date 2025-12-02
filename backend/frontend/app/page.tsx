@@ -1,11 +1,12 @@
-// frontend/app/page.tsx
 
-// THIS LINE IS REQUIRED FOR THE APP ROUTER
 "use client";
 
 import { useState } from "react";
 import ResiTracker from "../components/ResiTracker";
-import OngkirChecker from "../components/OngkirChecker";
+
+function OngkirChecker() {
+  return <div>Cek Ongkir (Coming Soon)</div>;
+}
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("resi");
